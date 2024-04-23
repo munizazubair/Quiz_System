@@ -96,7 +96,7 @@ if (q5Input.question5 == "A) Extra features and syntax") {
   console.log("You are Right!");
   score++;
 } else {
-  console.log("Sorrry, that's incorrect. The correct answer is '");
+  console.log("Sorrry, that's incorrect. The correct answer is 'A) Extra features and syntax");
 }
 console.log(`Your Score: ${score}`);
 let q6Input = await inquirer.prompt([
