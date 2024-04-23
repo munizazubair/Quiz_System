@@ -92,7 +92,7 @@ if (q5Input.question5 == "A) Extra features and syntax") {
     score++;
 }
 else {
-    console.log("Sorrry, that's incorrect. The correct answer is '");
+    console.log("Sorrry, that's incorrect. The correct answer is 'A) Extra features and syntax");
 }
 console.log(`Your Score: ${score}`);
 let q6Input = await inquirer.prompt([
@@ -175,9 +175,9 @@ else {
     console.log("Sorrry, that's incorrect. The correct answer is 'B) false");
 }
 console.log(`Your Score: ${score}`);
-if (score <= 10 && score >= 5) {
-    console.log(`Congratulations! Your scored is 10/${score}`);
+if (score <= 10 && score >= 6) {
+    console.log(`Congratulations! Your scored is 10/${score} ${"\n"}You Win the Quiz Game`);
 }
-else if (score <= 4 && score >= 0) {
+else if (score <= 5 && score >= 0) {
     console.log(` Your scored is 10/${score} ${"\n"}It's ok, keep practicing and strengthen your concepts and try next time`);
 }
